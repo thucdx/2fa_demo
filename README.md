@@ -9,11 +9,21 @@ mvn package
 
 
 ```
-java -jar program_name.jar -g 
-to generate secret
+java -jar <jar_file> <MODES> [OPTIONS]
 
-java -jar program_name.jar -o SECRET
-to get valid TOTP
+```
+###MODES
+-o: Get valid TOPT.
+
+-g: Generate serect.
+
+###OPTIONS
+-q: Generate QRCode, can only be used in conjunction with -g mode.
+
+
+###EXAMPLE:
+`java -jar 2FA-1.0-SNAPSHOT-jar-with-dependencies.jar -g -q`
+
 ```
 
 
