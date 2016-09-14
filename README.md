@@ -1,9 +1,8 @@
-Two-Factor Authentication
+# Two-Factor Authentication
 
 Specification: https://tools.ietf.org/html/rfc6238
 
 ## How to run
--------------
 
 Pakage
 ```
@@ -11,11 +10,11 @@ mvn package
 ```
 
 Run
-
 ```
 java -jar <jar_file> <MODES> [OPTIONS]
 
 ```
+
 ###MODES
 -o: Get valid TOPT.
 
